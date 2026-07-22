@@ -1257,20 +1257,4 @@ static/
 
 # Celery
 celerybeat-schedule
-celerybeat.pid
-
-# Redis
-dump.rdb
-appendonly.aof
-
-# ========================================
-# KEEP DIRECTORY STRUCTURE
-# ========================================
-
-# Keep these directories even if empty
-!logs/.keep
-!data/.keep
-!uploads/.keep
-!temp/.keep
-!output/.keep
-!storage/.keep
+ce
